@@ -1,0 +1,8 @@
+name: ProfessionPlugin
+main: org.sandcast.profession.plugin.ProfessionPlugin
+version: ${version}
+database: true
+commands:
+  skill:
+    description: information on professional skills
+    usage: /skill list
