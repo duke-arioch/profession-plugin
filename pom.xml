@@ -5,7 +5,10 @@
     <version>0.1</version>
     <name>ProfessionPlugin</name>
     <url>http://www.bukkit.org</url>
-
+    <inceptionYear>2017</inceptionYear>
+    <organization>
+        <name>sandcast.org</name>
+    </organization>
     <repositories>
         <repository>
             <id>bukkit-repo</id>
@@ -55,6 +58,5 @@
                 </configuration>
             </plugin>
         </plugins>
-
     </build>
 </project>

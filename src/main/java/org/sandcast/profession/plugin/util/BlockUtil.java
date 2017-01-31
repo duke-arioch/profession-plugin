@@ -1,11 +1,11 @@
 package org.sandcast.profession.plugin.util;
 
 import java.util.Optional;
+import java.util.Set;
 import org.bukkit.CropState;
 import org.bukkit.Material;
 import org.bukkit.TreeSpecies;
 import org.bukkit.block.Block;
-import org.bukkit.event.Event;
 import org.bukkit.event.block.Action;
 import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.material.Crops;
@@ -48,5 +48,17 @@ public class BlockUtil {
         } else {
             return false;
         }
+    }
+
+    public static boolean isUsing(Object e) {
+        return false;
+    }
+
+    public static boolean isMaterial(Set<Material> materials, Block block) {
+        return false;
+    }
+
+    public static boolean isMaterialSimilar(Set<Material> materials, Block block) {
+        return false;
     }
 }

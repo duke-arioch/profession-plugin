@@ -34,7 +34,6 @@ public class SkilledPlayer implements Serializable {
         this.playerName = playerName;
     }
 
-
     public void addExperience(Experience experience) {
         this.experience.add(experience);
     }
